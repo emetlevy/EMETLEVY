@@ -1,24 +1,43 @@
-h1{
+.Name{
     color:black;
     font-family:Arial;
     font-style: italic;
     font-size:70px;
     padding:0px 30px 0px 50px;
     margin-bottom:30px;
+  
+    
 }
+
 .TitleLink{
     text-decoration: none;
 }
-h2{
+.behindtext{
     color:white;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     font-family:Arial;
     font-style: italic;
     font-size:70px;
-    position:absolute; top:-15px;left:50px;
-    z-index:-1;
+    position:absolute; top:-10px;left:50px;
+    z-index:1;
+    animation: out 1.2s forwards;   
+
 }
+@keyframes out {
+from {transform:translate(10px,10px);}
+  to { transform:translate(0px,0px);}
+  
+}
+ .behindtext:hover{
+  animation: in 1.2s forwards;  
+}
+@keyframes in {
+  from {transform:translate(0px,0px);}
+  to{ transform:translate(10px,10px);}
+}
+
+ 
 .MenuBar{
     padding:0px 0px 0px 50px;
     display:inline;
