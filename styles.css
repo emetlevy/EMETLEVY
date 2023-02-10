@@ -21,7 +21,7 @@
     font-size:70px;
     position:absolute; top:-10px;left:50px;
     z-index:1;
-    animation: out 1.2s forwards;   
+    animation: out 1s forwards;   
 
 }
 @keyframes out {
@@ -30,7 +30,7 @@ from {transform:translate(10px,10px);}
   
 }
  .behindtext:hover{
-  animation: in 1.2s forwards;  
+  animation: in 1s forwards;  
 }
 @keyframes in {
   from {transform:translate(0px,0px);}
@@ -113,3 +113,58 @@ from {transform:translate(10px,10px);}
     max-height: 500px;
     margin:15px;
   }
+.Home{
+  animation: Home 1s forwards;  
+  position: relative;
+}
+.Gallery{
+    animation: Gallery 1s forwards;  
+    position: relative;
+  }
+
+.CV{
+      animation: CV 1s forwards;  
+      position: relative;
+    }
+
+.Contact{
+    animation: Contact 1s backwards;  
+    position: relative;
+  }
+
+  @keyframes Home {
+    0%   {left:0px; top:0px;}
+    20% {left:0px; top:-10px;}
+    40%  {left:0px; top:0px;}
+    60%  {left:0px; top:0px;}
+    75% {left:0px; top:0px;}
+    100%{left:0px; top:0px;}
+      
+    }
+  @keyframes Gallery {
+    0%   {left:0px; top:0px;}
+    20% {left:0px; top:0px;}
+    40%  {left:0px; top:-10px;}
+    60%  {left:0px; top:0px;}
+    75% {left:0px; top:0px;}
+    100%{left:0px; top:0px;}
+      
+    }
+  @keyframes CV {
+    0%   {left:0px; top:0px;}
+    20% {left:0px; top:0px;}
+    40%  {left:0px; top:0px;}
+    60%  {left:0px; top:-10px;}
+    75% {left:0px; top:0px;}
+    100%{left:0px; top:0px;}
+      
+    }
+  @keyframes Contact {
+    0%   {left:0px; top:0px;}
+    20% {left:0px; top:0px;}
+    40%  {left:0px; top:0px;}
+    60%  {left:0px; top:0px;}
+    75% {left:0px; top:-10px;}
+    100%{left:0px; top:0px;}
+      
+    }
