@@ -168,3 +168,7 @@ from {transform:translate(10px,10px);}
     100%{left:0px; top:0px;}
       
     }
+
+.my_email{
+    padding-left:20px;
+}
