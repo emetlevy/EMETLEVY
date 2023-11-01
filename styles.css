@@ -172,3 +172,16 @@ from {transform:translate(10px,10px);}
 .my_email{
     padding-left:20px;
 }
+
+ .BusinessMan{
+      animation: Man 5s;  
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes Man{
+      0%{transform: rotate(0deg);}
+      25% {transform: rotate(10deg);}
+      75%{transform: rotate(-10deg);}
+      100%{transform: rotate(0deg);}
+        
+      }
